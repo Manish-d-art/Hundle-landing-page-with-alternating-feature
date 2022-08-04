@@ -14,13 +14,19 @@ body{
 font-family: 'Poppins', sans-serif;
 600 */
 
-main{
-    margin:2rem 2rem 0 2rem;
+header{
+    margin:2rem 1rem;
 }
+
+
 .nav{
    display: flex;
    justify-content: space-between;
 }
 .nav__item--logo{
     width:7.5rem;
+}
+
+main{
+    margin:2rem 2rem 0 2rem;
 }
