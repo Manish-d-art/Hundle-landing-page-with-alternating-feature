@@ -41,8 +41,12 @@ a{
 
 
 .nav__item--link{
-    font-size: 0.8rem;
+    font-size: 0.76rem;
     font-weight: 700;
+    padding:.4rem 1.2rem;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 6px 10px -7px gray;
 }
 
 main{
