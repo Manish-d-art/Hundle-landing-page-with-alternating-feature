@@ -197,7 +197,7 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         padding:4rem 1.5rem;
     
     }
-
+/* section-4 */
     .section-4{
         box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         display: flex;
@@ -220,4 +220,12 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         color:hsl(193, 100%, 96%);
         font-weight: 700;
         font-size: 0.8rem;
+    }
+
+    /* footer */
+    .footer{
+        margin: 4rem 1rem 2rem 1rem;
+    }
+    .footer__location-logo{
+        width: 100px;
     }
