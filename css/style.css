@@ -225,7 +225,12 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
     /* footer */
     .footer{
         margin: 4rem 1rem 2rem 1rem;
+        background-color:  hsl(192, 100%, 9%);
+    }
+    .footer__logo{
+        
     }
     .footer__location-logo{
         width: 100px;
+        height:10px;
     }
