@@ -228,7 +228,7 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         background-color:  hsl(192, 100%, 9%);
     }
     .footer__logo{
-        
+        filter:invert(1) sepia(2) contrast(1) brightness(2);
     }
     .footer__location-logo{
         width: 100px;
