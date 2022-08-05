@@ -39,10 +39,12 @@ a{
    /* justify-content: baseline; */
 }
 .header__logo{
-    width:6.5rem;
+    width:7rem;
 }
 
-
+.header__link-block{
+    margin-top:-6px;
+}
 .header__link{
     font-size: 0.76rem;
     font-weight: 700;
@@ -103,13 +105,17 @@ padding:0 1.5rem;
     width:100%;
     padding:0 1.5rem;
 }
+
+.section-1__block-1{
+    padding:4rem 1.5rem;
+    }
+
 .section-1{
     display:flex;
     flex-direction: column;
     align-items: center;
-    /* margin:9rem 0; */
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
 }
 
 .section-1__heading{
@@ -119,13 +125,75 @@ padding:0 1.5rem;
 
 .section-1__para{
     text-align: center;
-    margin:.5rem 0 2rem 0;
+    margin:.5rem 0 0rem 0;
     padding:.8rem 2.5rem 2.5rem 2.5rem;
     font-size: .9rem;
     line-height: 1.5;
     color:hsl(208, 11%, 55%);
     font-weight: 400;
 }
-.section-1__block-1{
-padding:4rem 0.5rem;
+
+/* section-2 */
+.section-2{
+box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
+
 }
+
+.section-2__img{
+    width:100%;
+    padding:0 1.5rem;
+}
+
+.section-2__block-1{
+    margin:3rem 0;
+    padding:4rem 1.5rem;
+
+}
+
+.section-2__heading{
+    text-align: center;
+    font-size:1.3rem;
+}
+
+.section-2__para{
+    text-align: center;
+    margin:.5rem 0 0rem 0;
+    padding:.8rem 2.5rem 2.5rem 2.5rem;
+    font-size: .9rem;
+    line-height: 1.5;
+    color:hsl(208, 11%, 55%);
+    font-weight: 400;
+}
+
+/* section-3 */
+
+.section-3{
+    box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
+    
+    }
+
+    .section-3__img{
+        width:100%;
+        padding:0 1.5rem;
+    }
+
+    .section-3__heading{
+        text-align: center;
+        font-size:1.3rem;
+    }
+
+    .section-3__para{
+        text-align: center;
+        margin:.5rem 0 0rem 0;
+        padding:.8rem 2.8rem 2.5rem 2.8rem;
+        font-size: .9rem;
+        line-height: 1.5;
+        color:hsl(208, 11%, 55%);
+        font-weight: 400;
+    }
+
+    .section-3__block-1{
+        margin:3rem 0;
+        padding:4rem 1.5rem;
+    
+    }
