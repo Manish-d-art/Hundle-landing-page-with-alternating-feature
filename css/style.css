@@ -185,7 +185,7 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
     .section-3__para{
         text-align: center;
         margin:.5rem 0 0rem 0;
-        padding:.8rem 2.8rem 2.5rem 2.8rem;
+        padding:.8rem 2.8rem 2.5rem 2.9rem;
         font-size: .9rem;
         line-height: 1.5;
         color:hsl(208, 11%, 55%);
@@ -224,13 +224,15 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
 
     /* footer */
     .footer{
-        margin: 4rem 1rem 2rem 1rem;
+        margin: 4rem 0 2rem 0;
+        padding:8rem 1rem 3rem 1rem;
         background-color:  hsl(192, 100%, 9%);
     }
     .footer__logo{
         filter:invert(1) sepia(2) contrast(1) brightness(2);
+        width:150px;
     }
     .footer__location-logo{
-        width: 100px;
-        height:10px;
+        width: 15px;
+        height:20px;
     }
