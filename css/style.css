@@ -225,16 +225,84 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
     /* footer */
     .footer{
         margin: 4rem 0 0 0;
-        padding:8rem 1rem 3rem 1rem;
+        padding:8rem 1rem 0 1rem;
         background-color:  hsl(192, 100%, 9%);
     }
     .footer__logo{
         filter:invert(1) sepia(2) contrast(1) brightness(2);
-        width:150px;
+        width:180px;
+    }
+    .footer__loc-para{
+        width:87%;
+        color:hsl(216, 6%, 85%);
+        line-height: 1.5;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .footer__loc-block{
+        margin:1.5rem 0;
+        display:flex;
+        justify-content: space-between;
     }
     .footer__location-logo{
-        width: 15px;
+        width: 12px;
         height:20px;
+        margin-top:5px;
+    }
+
+    .footer__contact-block{
+        margin:1.5rem 0;
+        display:flex;
+        justify-content: space-between;
+
+    }
+    .footer__contact-para{
+        width:87%;
+        color:hsl(216, 6%, 85%);
+
+    }
+    .footer__contact-logo{
+        width: 14px;
+        height:22px;
+        margin-top:3px;
+    }
+
+    .footer__mail-block{
+        margin:1.5rem 0;
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+    }
+    .footer__mail-para{
+        width:87%;
+        color:hsl(216, 6%, 85%);
+    }
+    .footer__mail-logo{
+        width: 21px;
+        height:18px;
+        margin-top:3px;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    li{
+        font-size: 1.15rem;
+        color:hsl(216, 6%, 85%);
+        line-height: 2.5;
+
+    }
+
+    .footer__social-media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:4rem 0
+    }
+    .footer_copyright-para{
+        margin-top: 2rem;
+        color:hsl(216, 6%, 85%);
+        font-size: .7rem;
+
     }
 
     #footer__fb-logo{
@@ -249,6 +317,7 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         color:white;
         border:1px solid white;
         border-radius:50%;
+        margin:0 .5rem 0 .5rem;
 
     }
 
