@@ -11,11 +11,19 @@ body{
     /* font-size: 16px; */
    
 }
-@media (min-width:821px) {
-    body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+
+@media (min-width:481px) and (max-width:768px) {
+    main{
+        /* margin:4rem 4rem !important; */
     }
+    
+}
+
+@media (min-width:769px) {
+    main{
+        /* margin:4rem 4rem !important; */
+    }
+    
 }
 
 /* heading
