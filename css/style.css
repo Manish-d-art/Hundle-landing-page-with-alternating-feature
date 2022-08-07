@@ -93,6 +93,10 @@ main{
     font-weight: 700;
     font-size: 0.8rem;
 }
+.btn:hover{
+opacity:0.5;
+}
+
 .header__block-2{
 padding:0 1.5rem;
 }
@@ -218,7 +222,7 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
             margin: 3rem 0 1rem 0;
           }
         
-    .section-4__btn{
+    .section-4__link{
         width:250px;
         padding:.7rem 2rem;
         text-align: center;
@@ -228,8 +232,11 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         color:hsl(193, 100%, 96%);
         font-weight: 700;
         font-size: 0.8rem;
+        cursor: pointer;
     }
-
+.section-4__link:hover{
+    opacity:0.5;
+}
     /* footer */
     .footer{
         margin: 4rem 0 0 0;
@@ -299,6 +306,11 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         line-height: 2.5;
 
     }
+    li:hover{
+        text-decoration: underline;
+        cursor: pointer;
+        display: inline-block;
+    }
 
     .footer__social-media{
         display: flex;
@@ -314,7 +326,7 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
     }
 
     #footer__fb-logo{
-        padding:10px 14px 10px 13px;
+        padding:10px 13px 9px 13px;
         color:white;
         border:1px solid white;
         border-radius:50%;
@@ -335,4 +347,13 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
         border:1px solid white;
         border-radius:50%;
 
+    }
+    #footer__insta-logo:hover{
+        color: hsl(322, 100%, 66%);
+    }
+    #footer__twitter-logo:hover{
+        color: hsl(322, 100%, 66%);
+    }
+    #footer__fb-logo:hover{
+        color: hsl(322, 100%, 66%);
     }
