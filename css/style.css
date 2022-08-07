@@ -350,10 +350,15 @@ box-shadow: 1px 1px 5px 5px rgb(245, 244, 244);
     }
     #footer__insta-logo:hover{
         color: hsl(322, 100%, 66%);
+        border:1px solid hsl(322, 100%, 66%);
     }
     #footer__twitter-logo:hover{
         color: hsl(322, 100%, 66%);
+        border:1px solid hsl(322, 100%, 66%);
+
     }
     #footer__fb-logo:hover{
         color: hsl(322, 100%, 66%);
+        border:1px solid hsl(322, 100%, 66%);
+
     }
