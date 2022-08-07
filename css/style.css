@@ -52,6 +52,9 @@ a{
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 6px 10px -7px gray;
+    cursor: pointer;
+    color:hsl(208, 11%, 55%);
+
 }
 
 main{
