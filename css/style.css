@@ -33,6 +33,27 @@ body{
         padding: 1.5rem 3.2rem  !important;
         line-height: 1.6 !important;
     }
+    .section-1__heading,.section-2__heading, .section-3__heading{
+        font-size:1.5rem !important;
+    }
+    .section-4__heading{
+        font-size:1.3rem !important;
+      }
+      .section-1__para,.section-2__para,.section-3__para{
+        padding:.8rem 5rem 2.5rem 5rem !important;
+        font-size: .9rem;
+        line-height: 1.5;
+        color:hsl(208, 11%, 55%);
+        font-weight: 400;
+    }
+    .section-4{
+        top: 180px !important;
+        }
+        .footer{
+            margin: 7rem 0 0 0 !important;
+            padding:8rem 5rem 0 1rem !important;
+            background-color:  hsl(192, 100%, 9%);
+        }
     
 }
 
