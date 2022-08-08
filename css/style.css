@@ -14,7 +14,24 @@ body{
 
 @media (min-width:481px) and (max-width:768px) {
     main{
-        /* margin:4rem 4rem !important; */
+        margin:3rem 2rem !important;
+    }
+    .header__logo{
+        width:9rem !important;
+    }
+    .header__link-block{
+        margin-top:-3px !important;
+    }
+    .header__link{
+        font-size: 0.7rem !important;
+    }
+    .header__1st-heading{
+        font-size: 2rem !important;
+        padding: 1.7rem  3rem !important;
+    }
+    .header__para{   
+        padding: 1.5rem 3.2rem  !important;
+        line-height: 1.6 !important;
     }
     
 }
@@ -83,8 +100,7 @@ main{
     margin: 5rem 0 0 0 ;
     text-align: center;
 }
-.header__para{
-    
+.header__para{   
     text-align: center;
     padding: 1.2rem;
     font-weight: 500;
