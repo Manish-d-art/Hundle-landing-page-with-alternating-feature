@@ -53,9 +53,14 @@ body{
     
 }
 
-@media (min-width:769px) and (max-width:1024px) {
+@media (min-width:769px) and (max-width:991px) {
+    header{
+        padding:3rem 2rem !important;
+        background-image: url("../assets/images/bg-hero-desktop.svg");
+        background-repeat: no-repeat;
+    }
     main{
-        margin:3rem 2rem !important;
+        margin:4rem 4rem !important;
     }
     .header__logo{
         width:9.2rem !important;
@@ -87,11 +92,16 @@ body{
         top: 190px !important;
         margin:3.5rem;
         }
-        .footer{
-            margin: 7rem 0 0 0 !important;
-            padding:14rem 5rem 0 1rem !important;
-        }   
-    
+    .footer{
+       margin: 7rem 0 0 0 !important;
+        padding:14rem 5rem 0 1rem !important;
+      }   
+     
+}
+@media (min-width:992px) {
+     .header__section-1{
+        display: flex;
+      }
 }
 
 /* heading
