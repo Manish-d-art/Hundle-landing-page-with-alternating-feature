@@ -14,8 +14,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
   - [Author](#author)
 
 
-
-
 ## Overview
 
 ### The challenge
@@ -32,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/Manish-d-art/Hundle-landing-page-with-alternating-feature.git)
+- Live Site URL: [live site URL here](https://huddle-landing-page-d-art.netlify.app)
 
 ## My process
 
