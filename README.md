@@ -43,8 +43,6 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
-
-
 - Frontend Mentor - [@Manish-d-art](https://www.frontendmentor.io/profile/Manish-d-art)
 - Twitter - [@manishmandal77](https://www.twitter.com/manishmandal77)
 
