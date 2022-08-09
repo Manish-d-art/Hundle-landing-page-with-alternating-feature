@@ -170,12 +170,13 @@ body{
     }
     .section-1,.section-2,.section-3{
         justify-content: space-around ;
+        margin-top: 3rem !important;
     }
     .section-1__img,.section-2__img,.section-3__img{
         width:26.625rem !important;
     }
     .section-4{
-        top: 9.375 !important;
+        top: 9.4rem !important;
         margin:0 10.5rem !important;
         padding-top: 2rem !important;
     }
@@ -246,6 +247,7 @@ header{
     background-image: url("../assets/images/bg-hero-mobile.svg");
     background-color: hsl(193, 100%, 96%);
     background-repeat: no-repeat;
+    margin-bottom: 6rem !important;
 }
 
 a{
